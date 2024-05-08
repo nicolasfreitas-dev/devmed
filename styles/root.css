@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* COLORS */
+    --primary-color: #F8F4FF;
+    --secondary-color: #464646;
+    --terciary-color: #FFFFFF;
+    --span-subtext: #A3A3A3;
+    --icon-chat-btn: #f6f6f6;
+    --chat-icon-container-color: #A3A3A3;
+    --audio-container-btn: #A3A3A3;
+    --video-container-btn: #FFB050;
+    --address-container-btn: #4894FF;
+
+    /* FONTS */
+    --fonte: Montserrat, "sans-serif";
+}

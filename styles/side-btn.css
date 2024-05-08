@@ -1,0 +1,27 @@
+.side-btn-container {
+    position: relative;   
+}
+
+.side-btn {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 20px;
+
+    background-color: var(--address-container-btn);
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.226);
+
+    border: none;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 80%;
+    bottom: 100%;
+    z-index: 99;
+    
+    cursor: pointer;
+}
+
+.plus-img {
+    width: 16px;
+    height: 16px;
+}
