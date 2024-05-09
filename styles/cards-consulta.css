@@ -1,0 +1,31 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 36rem;
+    height: 56.6rem;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .list-container {
+        width: 76.8rem;
+        height: 40rem;
+        display: grid;
+        align-items: center;
+        justify-content: start;
+        grid-template-columns: repeat(2, 36rem);
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .list-container {
+        width: 144rem;
+        height: auto;
+        display: grid;
+        align-items: center;
+        justify-content: start;
+        grid-template-columns: repeat(3, 36rem);
+    }
+}

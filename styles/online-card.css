@@ -1,10 +1,10 @@
-.consulta-online {
+.consulta-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-    width: 328px;
-    height: 180px;
+    width: 32.8rem;
+    height: 18rem;
     border-radius: 8px;
     background-color: var(--terciary-color);
 }
@@ -14,12 +14,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 328px;
+    width: 32.8rem;
     padding: 16px 20px;
 }
 
 .line {
-    width: 328px;
+    width: 32.8rem;
     border-bottom: 1px solid #46464677;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .paciente-img {
-    width: 32px;
-    height: 32px;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 50%;
 }
 
 .nome-paciente {
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -52,7 +52,7 @@
 }
 
 .tipo-consulta {
-    font-size: 12px;
+    font-size: 1.2rem;
     color: var(--chat-icon-container-color);
 }
 
@@ -62,20 +62,20 @@
     align-items: center;
     justify-content: center;
     background-color: var(--icon-chat-btn);
-    width: 32px;
-    height: 32px;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .chat-icon-btn img {
-    width: 12px;
-    height: 12px;
+    width: 1.2rem;
+    height: 1.2rem;
     object-fit: cover;
 }
 
 .hora-consulta {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
     width: 100%;
     margin: 5px 0px 5px 32px;
@@ -93,15 +93,15 @@
 }
 
 .online-btn {
-    width: 139px;
-    height: 48px;
+    width: 13.9rem;
+    height: 4.8rem;
     border-radius: 8px;
-    font-size: 14px;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 
 .video-btn {
-    font-weight: 14px;
+    font-weight: 1.4rem;
     font-weight: 500;
     background-color: var(--video-container-btn);
     color: var(--terciary-color);
@@ -109,9 +109,21 @@
 }
 
 .audio-btn {
-    font-weight: 14px;
+    font-weight: 1.4rem;
     font-weight: 500;
     background-color: var(--terciary-color);
     color: var(--secondary-color);
     border: 1px solid var(--audio-container-btn);
+}
+
+@media screen and (max-width: 768px) {
+    .consulta-container {
+        margin-left: 36px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .consulta-container {
+        margin-left: 36px;
+    }
 }

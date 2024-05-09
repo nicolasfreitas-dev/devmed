@@ -6,12 +6,13 @@
         <title>DevMed</title>
         <link rel="stylesheet" href="/styles/reset.css" />
         <link rel="stylesheet" href="/styles/root.css" />
+        <link rel="stylesheet" href="/styles/header.css" />
+        <link rel="stylesheet" href="styles/cards-consulta.css">
         <link rel="stylesheet" href="styles/online-card.css">
         <link rel="stylesheet" href="styles/presencial-card.css">
         <link rel="stylesheet" href="styles/side-btn.css">
         <link rel="stylesheet" href="styles/action-bar.css">
         <link rel="stylesheet" href="styles/modal.css">
-        <link rel="stylesheet" href="/styles/style.css" />
     </head>
     <body>
         <main id="container">
@@ -26,11 +27,13 @@
                     <span id="header-span">Mais 4 consultas hoje</span>
                 </div>
             </section>
+
             <section class="container-day">
                 <h2 class="day">Hoje</h2>
             </section>
+            
             <section class="list-container">
-                <div class="consulta-online">
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">
@@ -58,7 +61,7 @@
                         <button class="online-btn audio-btn" type="button">Ligar por áudio</button>
                     </div>
                 </div>
-                <div class="consulta-presencial">
+                <div class="consulta-container">
                     <!-- CONSULTA LOCAL -->
                     <div class="consulta-presencial-content">
                         <div class="consulta-presencial-info">
@@ -85,7 +88,7 @@
                         <button class="endereco-btn" type="button">Ver endereço</button>
                     </div>
                 </div>
-                <div class="consulta-online">
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">
@@ -118,8 +121,9 @@
             <section class="container-day">
                 <h2 class="day">Amanhã</h2>
             </section>
+            
             <section class="list-container">
-                <div class="consulta-online">
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">
@@ -147,7 +151,7 @@
                         <button class="online-btn audio-btn" type="button">Ligar por áudio</button>
                     </div>
                 </div>
-                <div class="consulta-presencial">
+                <div class="consulta-container">
                     <!-- CONSULTA LOCAL -->
                     <div class="consulta-presencial-content">
                         <div class="consulta-presencial-info">
@@ -174,7 +178,7 @@
                         <button class="endereco-btn" type="button">Ver endereço</button>
                     </div>
                 </div>
-                <div class="consulta-online">
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">
@@ -207,7 +211,7 @@
                 <h2 class="day">Quinta</h2>
             </section>
             <section class="list-container">
-                <div class="consulta-online">
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">
@@ -235,7 +239,7 @@
                         <button class="online-btn audio-btn" type="button">Ligar por áudio</button>
                     </div>
                 </div>
-                <div class="consulta-presencial">
+                <div class="consulta-container">
                     <!-- CONSULTA LOCAL -->
                     <div class="consulta-presencial-content">
                         <div class="consulta-presencial-info">
@@ -262,7 +266,35 @@
                         <button class="endereco-btn" type="button">Ver endereço</button>
                     </div>
                 </div>
-                <div class="consulta-online">
+                <div class="consulta-container">
+                    <!-- CONSULTA REMOTA -->
+                    <div class="consulta-online-content">
+                        <div class="consulta-online-info">
+                            <img
+                                class="paciente-img"
+                                src="assets/perfil-2.jpg"
+                                alt="foto paciente"
+                            />
+                            <div>
+                                <h3 class="nome-paciente">Clara Lemos</h3>
+                                <div class="tipo-consulta-container">
+                                    <img src="assets/Camera.png" alt="icone camera" />
+                                    <span class="tipo-consulta">Consulta remota</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chat-icon-btn">
+                            <img src="assets/chat2.png" alt="icone chat" />
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <p class="hora-consulta">14:00 - 15:00 (1 hora)</p>
+                    <div class="container-btn-online">
+                        <button class="online-btn video-btn" type="button">Ligar por vídeo</button>
+                        <button class="online-btn audio-btn" type="button">Ligar por áudio</button>
+                    </div>
+                </div>
+                <div class="consulta-container">
                     <!-- CONSULTA REMOTA -->
                     <div class="consulta-online-content">
                         <div class="consulta-online-info">

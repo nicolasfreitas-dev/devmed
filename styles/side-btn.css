@@ -25,3 +25,13 @@
     width: 16px;
     height: 16px;
 }
+
+@media screen and (max-width: 1440px) {
+    .side-btn {
+        position: absolute;
+        left: 90%;
+        bottom: 100%;
+        z-index: 99;
+    }
+    
+}

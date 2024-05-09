@@ -1,5 +1,5 @@
 .modal-container {
-    width: 360px;
+    width: 36rem;
     height: 100%;
     position: fixed;
     top: 0;
@@ -30,12 +30,12 @@
     align-items: center;
     justify-content: end;
     gap: 20px;
-    width: 360px;
-    height: 70px;
+    width: 36rem;
+    height: 7rem;
 }
 
 .modal-span-text {
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--secondary-color);
     background-color: var(--terciary-color);
@@ -44,8 +44,8 @@
 }
 
 .modal-btn-container {
-    width: 56px;
-    height: 56px;
+    width: 5.6rem;
+    height: 5.6rem;
     background-color: var(--address-container-btn);
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.226);
     border: none;
