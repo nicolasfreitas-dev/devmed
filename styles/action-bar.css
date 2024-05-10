@@ -36,7 +36,7 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     #actions-list-container {
         width: 76.8rem;
         height: 5.8rem;
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     #actions-list-container {
         width: 144rem;
         height: 5.8rem;

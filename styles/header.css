@@ -54,7 +54,7 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     #container {
         width: 76.8rem;
         height: 100%;
@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     #container {
         width: 144rem;
         height: 124.9rem;

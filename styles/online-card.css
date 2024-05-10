@@ -116,13 +116,13 @@
     border: 1px solid var(--audio-container-btn);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .consulta-container {
         margin-left: 36px;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .consulta-container {
         margin-left: 36px;
     }

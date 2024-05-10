@@ -3,8 +3,8 @@
 }
 
 .side-btn {
-    width: 56px;
-    height: 56px;
+    width: 5.6rem;
+    height: 5.6rem;
     margin-bottom: 20px;
 
     background-color: var(--address-container-btn);
@@ -26,12 +26,19 @@
     height: 16px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
     .side-btn {
         position: absolute;
-        left: 90%;
+        left: 85%;
         bottom: 100%;
         z-index: 99;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .side-btn-container {
+        display: none;
     }
     
 }
