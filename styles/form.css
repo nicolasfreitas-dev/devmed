@@ -1,0 +1,83 @@
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    margin: 20px 0px 0px 36px;
+}
+
+#cadastro-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#form-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+    width: 50%;
+    height: 70%;
+    margin-top: 20px;
+}
+
+.form-internal-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.label-container {
+    display: block;
+    width: 16rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.input-container {
+    display: block;
+    width: 23.8rem;
+    height: 5.6rem;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+#textarea-container {
+    display: block;
+    width: 23.8rem;
+    height: 5.6rem;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    border: none;
+}
+
+#form-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 58%;
+}
+
+#form-btn {
+    width: 23.8rem;
+    height: 4rem;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--address-container-btn);
+    font-weight: 600;
+    color: var(--terciary-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #form-container {
+        display: none;
+    }
+}

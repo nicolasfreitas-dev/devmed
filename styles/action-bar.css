@@ -19,6 +19,16 @@
     gap: 20px;
 }
 
+#clientes:active, #relatorios:active, #menu:active {
+    color: var(--address-container-btn);
+    font-weight: bold;
+}
+
+#consultas {
+    color: var(--address-container-btn);
+    font-weight: bold;
+}
+
 .actions-btn {
     display: flex;
     flex-direction: column;
@@ -40,20 +50,47 @@
     #actions-list-container {
         width: 76.8rem;
         height: 5.8rem;
+        font-size: 1.8rem;
     }
 
     #actions-btn-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 76.8rem;
         gap: 36px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     #actions-list-container {
-        width: 144rem;
-        height: 5.8rem;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 20rem;
+        height: 100%;
     }
 
     #actions-btn-container {
-        gap: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 12px 0px 0px 12px;
+        width: 100%;
+    }
+
+    .actions-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .action-img {
+        width: 3rem;
+        height: 3rem;
     }
 }

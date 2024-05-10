@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="styles/side-btn.css">
         <link rel="stylesheet" href="styles/action-bar.css">
         <link rel="stylesheet" href="styles/modal.css">
+        <link rel="stylesheet" href="styles/form.css">
     </head>
     <body>
         <main id="container">
@@ -325,19 +326,19 @@
             </section>
             <section id="actions-list-container">
                 <ul id="actions-btn-container">
-                    <li class="actions-btn">
+                    <li class="actions-btn" id="consultas">
                         <img class="action-img" src="assets/Calendarioicone.png" alt="icone de calendário">
                         <p class="action-title">Consultas</p>
                     </li>
-                    <li class="actions-btn">
+                    <li class="actions-btn" id="clientes">
                         <img class="action-img" src="assets/clientes icone.png" alt="icone de cliente">
                         <p class="action-title">Clientes</p>
                     </li>
-                    <li class="actions-btn">
+                    <li class="actions-btn" id="relatorios">
                         <img class="action-img" src="assets/relatorios icone.png" alt="icone de relatórios">
                         <p class="action-title">Relatórios</p>
                     </li>
-                    <li class="actions-btn">
+                    <li class="actions-btn" id="menu">
                         <img class="action-img" src="assets/menu icone.png" alt="icone de menu">
                         <p class="action-title">Menu</p>
                     </li>
@@ -364,6 +365,44 @@
             </aside>
             <div class="modal-container">
             </div>
+            <section id="form-container">
+                <div id="form-title-container">
+                    <h2 id="cadastro-title">Cadastro de Paciente</h2>
+                </div>
+                <form action="" id="form-layout">
+                    <div class="form-internal-layout">
+                        <label class="label-container" for="nome">Nome do Paciente:</label>
+                        <input placeholder="Nome completo" class="input-container" type="text" name="nome" id="nome-paciente">
+                    </div>
+
+                    <div class="form-internal-layout">
+                        <label class="label-container" for="modalidade">Modalidade:</label>
+                        <select class="input-container" name="modalidade" id="modalidade"></select>
+                    </div>
+
+                    <div class="form-internal-layout">
+                        <label class="label-container" for="data-consulta">Data da consulta:</label>
+                        <input class="input-container" type="date" name="data-consulta" id="data-consulta">
+                    </div>
+
+                    <div class="form-internal-layout">
+                        <label class="label-container" for="horario-consulta">Horário:</label>
+                        <input class="input-container" type="time" name="horario-consulta" id="horario-consulta">
+                    </div>
+
+                    <div class="form-internal-layout">
+                        <label class="label-container" for="observacoes">Observações:</label>
+                        <textarea 
+                        placeholder="Informações adicionais" 
+                        id="textarea-container" 
+                        name="observacoes" 
+                        id="observacoes">
+                        </textarea>
+                    </div>
+
+                    <div id="form-btn-container"><button type="submit" id="form-btn">Finalizar cadastro</button></div>
+                </form>
+            </section>
         </main>
         <script src="js/script.js"></script>
     </body>
